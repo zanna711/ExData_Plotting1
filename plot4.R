@@ -1,7 +1,3 @@
-#install and load required package
-install.packages("lubridate")
-library(lubridate)
-
 #read data in the working directory
 data <- read.table("household_power_consumption.txt", header=TRUE, sep= ";",dec=".")
 
